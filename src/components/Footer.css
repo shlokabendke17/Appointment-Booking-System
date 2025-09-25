@@ -1,0 +1,16 @@
+.main-footer {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #777; /* A soft gray for text */
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #333; /* Darker gray on hover */
+}

@@ -1,0 +1,49 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+  background-color: #2d866a; /* The deep green background */
+  color: white; /* Change text color to white for contrast */
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #e1e6e9; /* Light grey for the button */
+  color: #3cb371; /* A nice green for the text */
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d1d6d9; /* A slightly darker gray on hover */
+}
+
+.hero-image {
+  /* No positioning needed here. Flexbox handles it. */
+  align-self: flex-end; /* This aligns the image to the bottom of the container */
+  margin-bottom: -15px; /* Adjust this value to lift the image slightly */
+}
+
+.hero-image img {
+  width: 300px; /* Adjust the size of the image as needed */
+  height: auto;
+}
